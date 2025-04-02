@@ -1,0 +1,22 @@
+>>> # Definición de las dimensiones del rectángulo (valores predefinidos)
+>>> ancho = 10
+>>> largo = 5
+>>>
+>>> # Definición de variables de texto para la presentación
+>>> mensaje_introduccion = "Este programa calcula el área de un rectángulo."
+>>> pregunta_ancho = "El ancho del rectángulo es:"
+>>> pregunta_largo = "El largo del rectángulo es:"
+>>> mensaje_resultado = "Por lo tanto, el área del rectángulo es:"
+>>> unidad_medida = "unidades cuadradas."
+>>>
+>>> # Cálculo del área
+>>> area = ancho * largo
+>>>
+>>> # Presentación amigable de los resultados
+>>> print(mensaje_introduccion)
+Este programa calcula el área de un rectángulo.
+>>> print(pregunta_ancho, ancho)
+El ancho del rectángulo es: 10
+>>> print(pregunta_largo, largo)
+El largo del rectángulo es: 5
+>>> print(mensaje_resultado, area, unidad_medida)
